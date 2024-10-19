@@ -1,0 +1,32 @@
+Script started on 2024-10-18 20:37:26-04:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="162" LINES="23"]
+[?2004h]0;upgautam@deimos: ~/CLionProjects/qemu/build[01;32mupgautam@deimos[00m:[01;34m~/CLionProjects/qemu/build[00m$ [7m./qemu-system-x86_64 -nographic[27m./qemu-system-x86_64 -nographic
+[?2004lHello 5204
+c[?7l[2J[0mSeaBIOS (version rel-1.16.3-0-ga6ed6b701f0a-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+06FD0FC0+06F30FC0 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from Hard Disk...
+Boot failed: could not read the boot disk
+
+Booting from Floppy...
+Boot failed: could not read the boot disk
+
+Booting from DVD/CD...
+Boot failed: Could not read from CDROM (code 0003)
+Booting from ROM...
+iPXE (PCI 00:03.0) starting execution...ok
+iPXE initialising devices...ok
+
+
+
+[0;1miPXE 1.20.1+ (g4bd0)[0m -- Open Source Network Boot Firmware -- [0;36mhttp://ipxe.org
+[0mFeatures: DNS HTTP iSCSI TFTP AoE ELF MBOOT PXE bzImage Menu PXEXT
+
+Press Ctrl-B for the iPXE command line...QEMU: Terminated
+[?2004h]0;upgautam@deimos: ~/CLionProjects/qemu/build[01;32mupgautam@deimos[00m:[01;34m~/CLionProjects/qemu/build[00m$ exit
+[?2004lexit
+
+Script done on 2024-10-18 20:37:43-04:00 [COMMAND_EXIT_CODE="0"]

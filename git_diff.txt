@@ -1,0 +1,12 @@
+diff --git a/system/main.c b/system/main.c
+index 1276d50b41..9b91d21ea8 100644
+--- a/system/main.c
++++ b/system/main.c
+@@ -44,7 +44,6 @@ int (*qemu_main)(void) = qemu_default_main;
+ 
+ int main(int argc, char **argv)
+ {
+-    printf("Hello 5204\n");
+     qemu_init(argc, argv);
+     return qemu_main();
+ }
